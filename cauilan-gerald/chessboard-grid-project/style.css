@@ -1,0 +1,67 @@
+/*USE GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*SET BODY ELEMENT TO GRID*/
+/*USED LINEAR GRADIENT TO SET BG COLOR*/
+body{
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(#3CA55C,#605C3C);   
+}
+
+/*HEADING STYLE*/
+.header h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+/*PARAGRAPH STYLE*/
+.header p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*USED GRID PROPERTY TO DISPLAY THE 64 BOX CHESSBOARD*/
+.chessboard-container{
+    display: grid;
+    grid-gap: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 5px;
+    border: 25px black solid;
+}
+
+/*USED GRID PROPERTY TO DISPLAY THE 64 BOX CHESSBOARD*/
+.chessboard-container .box1{
+    display: grid;
+    font-size: 5vh;
+    justify-content: center;
+    align-items: center;
+    width: 9vh;
+    height: 9vh;
+    background-color: darkgreen;
+    border: .5px solid black;
+}
+
+/*USED GRID PROPERTY TO DISPLAY THE 64 BOX CHESSBOARD*/
+.chessboard-container .box2{
+    display: grid;
+    font-size: 5vh; 
+    justify-content: center;
+    align-items: center;
+    width: 9vh;
+    height: 9vh;
+    background-color: beige;
+    border: .5px solid black;
+}
